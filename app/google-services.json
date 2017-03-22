@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "800011076558",
+    "firebase_url": "https://whereareu-106fe.firebaseio.com",
+    "project_id": "whereareu-106fe",
+    "storage_bucket": "whereareu-106fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800011076558:android:12ac38c03997f4a8",
+        "android_client_info": {
+          "package_name": "felipe.palma.com.br.kdetu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800011076558-8dovchgqvopsan60144n12ovjn5e8jon.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFukNt3hqdZke7ithimvipnJePHCv_LlU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800011076558-8dovchgqvopsan60144n12ovjn5e8jon.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
