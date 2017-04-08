@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\androidProject\\KdeTu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "C:\\androidProject\\KdeTu\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\androidProject\\KdeTu\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_bus.png",
+        "source": "C:\\androidProject\\KdeTu\\app\\src\\main\\res\\mipmap-mdpi\\ic_bus.png"
+    }
+]

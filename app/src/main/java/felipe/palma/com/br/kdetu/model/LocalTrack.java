@@ -2,6 +2,7 @@ package felipe.palma.com.br.kdetu.model;
 
 import com.google.firebase.database.Exclude;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -9,7 +10,7 @@ import java.util.Map;
  * Created by Roberlandio on 06/02/2017.
  */
 
-public class LocalTrack {
+public class LocalTrack implements Serializable{
     private String id;
     private String descricao;
     private double latitude;

@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c8f5d56f8f8a287c95e02c542baade138a378048">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-common-9.4.0_5cb5f68227a351bf742fd9870671e5112baf29b5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.4.0_4b0c69d0ee057f9ccec1765800f327049e97901f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-config\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-config-9.4.0_52a1a3c23bb4738b690c9f640a51ea166f2bfcde\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_dc17273dfcf734a90be85e600b856fee2eb7091b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.4.0_91376463f037faf033e8fe94857b6fcb634f74f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c10df7344e31161852c20bb8143fc37319aa10ec">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-9.4.0_ba9b377963ecd4f105c72111dc260cc6518fb2e7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.4.0_ed4976679827fb4ea79416afd95fa689ecc5d6a8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_07fba0b5a012d50403e72cd401d0e7294a6efac7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_27c082f81fcf462808b0894bc0768b03293c96ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a432629397351d3ec7f27a23d258b229b81af08f">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-9.4.0_5cb0baf5d57ac6ebc18b3d09875123f90c2157d6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-24.2.1_c22429b4fbb1b0782c3e736c75376f00bae00047\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_295aa9a574fd7e05c13739a839f89c1cc56930b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-24.2.1_10cd953c940accdea77ebb67004f63b8f836c70e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_bec9347a43b6fb70fff6aea0b0537472eaea5d8f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_d0635ec4cfb0123df7c885b3ab60fe7846792726\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_95f2b5dd31160178952b3f7dde85ee144331a85d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-clearcut\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-clearcut-9.4.0_e054fe71fcd271993705d0531d243a481a31cb83\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.4.0_177d5db0ec8fe85fc3f2184dd9eff51c84c58e4c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-9.4.0_79df75a64dcdcbe5c7d25f32185454d1bcd3b4be\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-24.2.1_09c16025e15e106dce027c2bd764deefd8dfd559\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_9c2afda8a6d803cdcc732093c91479d59a77544c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_63b4ee73b760d40ed1ee2e26e1afcda69279934f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.4.0_2089efbe960f24b1c2c6aa3336a30930c80d9d7a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-24.2.1_839eed3e85a5b82303e89065462f628f4751fcc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="adbe79c76d28cee34eec809b83ee08cb59884db6">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9a28f06e0e7222cde84d08dc644fb0a724bf9c29\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-24.2.1_82b5d35d61dad547f800e4c346a015de0df21208\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8ce5e7a4a146dddd1d9e66b09c714a6c149916d8">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-drive-9.4.0_a0c49899cb72bef83528df1af27ccf521c5d02f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_43f1d24cb8a3c017d33ad4186d7198c64a6a086b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_4e6e71aa253ee5fe38d4ccd96e19b9eb27078d66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8197651ce1af4d89b47f4545cc720bc4f8611e7d">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-fitness-9.4.0_fd277d9ca43261962acf47539fd9ab04c7fa51d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_68a40a969ae58f5e0eb59686a3a82c4e39ce79bb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e04c0b3683ca45b343284d93e5594b5f9044551">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-identity-9.4.0_b90ca6cc526ec15ffbfd63e988b029b14df80f10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-24.2.1_e0c945ef0cd098402a176d4319be44554ca3d1d0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-24.2.1_d904d70f671179eeec3706b62c1b269c304f72ce\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1acf13f1b7d8232af78a30833f9a966d1394c84">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wearable-9.4.0_40b55f98a2513100a4fc833d7015fc0cb3b60018\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="670df81539ab71918d49b186598b7eff08ef6563">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-vision-9.4.0_df017ba98ee30f2503cefb568bb959adcd234a24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-24.2.1_6092410d2fefa86bc2dfb35b90f1968bb9bdf6c5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_52b2a714fc1cfe41f1137ba0472ce2d94ea7686f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_3059e6bf9b7fdf644772c3557a3a51db4bd0f025\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-9.4.0_574ad5bc8c6e777410711231edf991f21ab89b53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_2e2e6cee90311e3e11e57d4c6ebe2d77b2ed6716\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_05f2f81c1bc3f460658cf9387565bfbdfeb91ced\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.4.0_c570f37e3c7dc30a98b8270455b750d59c148642\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.4.0_c8ee4353f8f52a7ee39823207df4fd0bdbee6f3b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.4.0_71823bef95433eb2575ec8352623db9d30129e8a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.4.0_b19369843bb05216042d93f74072555187a29225\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_f8d893480bee4204ee9ad3f74ff320e80261f9ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.4.0_d636f8b63bbee2bfe9dcb86322fd86827b9d970c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-messaging\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-messaging-9.4.0_628b738e0a7f042bce274726bc9becb9b415a0d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_7fee33542e40acfbeb71de33917cd8ed4e6e87dd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.4.0_708c18f0cb89fc38adbf9c7781a67a162f5d3e84\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.4.0_9f3fb6ed64ee91dbc1620d4304333af61fc6482b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-24.2.1_4bd17d8ac6a8ce7b77436478fb2f517085163a53\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-24.2.1_fd0f032737506480ba9e3a5fbc608aad9922dcdc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98e97da89d4df8e2f6eba63498d3d46a587372f2">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-storage-9.4.0_b05b341c3e77f3af0fd107c095033272c882dbf0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics-impl\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0ad33eb600f3d80bdff5ce355c90d5533ade652a">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-impl-9.4.0_76f0bef63cb4e4fae5f4ef7c4a02a577706e442b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.4.0_24e4fa0e28eb96aea563c4199754fcbb9523d2b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.4.0_71b88beb7a80da286a0a6770ffad52305ea7b53a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.4.0_8511812af24b78a6c9005d029d6d342f848b9edc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_b5a234c4953e026a3e6bff94b3f6bb3cd7f54e22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_b9400dceb053ede933685bf0ae1b3143044c7b56\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-24.2.1_c39f46fdf26b2a2d7eb95f470471a83522bb02fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gass\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gass-9.4.0_4fc9888fa0a0a90e0895421c7ab33c0226ea4dba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appinvite-9.4.0_f003a8343bda6e6d6b9b8ce8380ec68eb2283610\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0b060160e7daee343f5315b3da91b0ff2d7eed89">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-location-9.4.0_ef0b96fe7f5337d09869c14de7f7a2631268065b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="888d037e36a90cdd1d4ec812280f55f03c415014">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_36e5b73a581872be789d81dd6693b5729a131566\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager-api\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7ea53c4458b80e8ea71f7fd6831fa184c501377b">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-api-9.4.0_3b7551b6d4092bfec457438bdc6eba1018c9115d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.4.0_2dc6781a96aa367bff94076b4e678f405bb7a04e\classes.dex" />
+    </item>
+
+</items>

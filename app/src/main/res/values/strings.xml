@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">KdeTu</string>
     <string name="google_key">AIzaSyD7fhpfh_jI2XyjDyzWOG-Rwps--Fk5iF4</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>
