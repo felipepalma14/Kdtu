@@ -3992,7 +3992,8 @@ containing a value of this type.
         public static final int blurred_background_image_view=0x7f0f00c0;
         public static final int book_now=0x7f0f0076;
         public static final int bottom=0x7f0f0030;
-        public static final int btn_eu=0x7f0f00bd;
+        public static final int btnFala=0x7f0f00bd;
+        public static final int btn_eu=0x7f0f00bc;
         public static final int button=0x7f0f00d5;
         public static final int buttonPanel=0x7f0f0091;
         public static final int button_0=0x7f0f00cf;
@@ -4061,7 +4062,6 @@ containing a value of this type.
         public static final int expand_activities_button=0x7f0f008b;
         public static final int expanded_controller_layout=0x7f0f00be;
         public static final int expanded_menu=0x7f0f009e;
-        public static final int fab=0x7f0f00bc;
         public static final int fill=0x7f0f003e;
         public static final int fill_horizontal=0x7f0f003f;
         public static final int fill_vertical=0x7f0f0035;

@@ -24,14 +24,6 @@
     <include layout="@layout/content_menu"
         android:id="@+id/include" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="356dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
-
     <Button
         android:text="Onde eu Tô?"
         android:id="@+id/btn_eu"
@@ -42,5 +34,15 @@
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="top|right"
         android:layout_gravity="bottom|left" />
+
+    <Button
+        android:text="Fala ai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnFala"
+        app:layout_anchor="@+id/include"
+        app:layout_anchorGravity="top|left"
+        android:layout_gravity="bottom|right"
+        android:onClick="falarLinha" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml
@@ -38,7 +38,7 @@ ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
 		ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:9:5-41:19
+ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:9:5-44:19
 MERGED from [com.google.android.gms:play-services:10.0.1] C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\10.0.1\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-ads-lite:10.0.1] C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\10.0.1\AndroidManifest.xml:23:5-27:19
 MERGED from [com.google.android.gms:play-services-analytics:10.0.1] C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\10.0.1\AndroidManifest.xml:26:5-19
@@ -138,6 +138,18 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
 		ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:38:27-74
+service#felipe.palma.com.br.kdetu.services.GPSLocationService
+ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:41:9-104
+	android:process
+		ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:41:62-101
+	android:name
+		ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:41:18-61
+service#felipe.palma.com.br.kdetu.services.ServiceVoice
+ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:43:9-91
+	android:process
+		ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:43:56-88
+	android:name
+		ADDED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml:43:18-55
 uses-sdk
 INJECTED from C:\androidProject\KdeTu\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:multidex:1.0.1] C:\androidProject\KdeTu\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42

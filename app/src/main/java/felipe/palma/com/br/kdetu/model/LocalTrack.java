@@ -20,6 +20,7 @@ public class LocalTrack implements Serializable{
     public LocalTrack() {
     }
 
+
     public LocalTrack(String id, String descricao, double latitude, double longitude, String atualizacao) {
         this.id = id;
         this.descricao = descricao;
@@ -33,6 +34,13 @@ public class LocalTrack implements Serializable{
         this.descricao = descricao;
         this.latitude = latitude;
         this.longitude = longitude;
+    }
+
+    public LocalTrack(String descricao, double latitude, double longitude, String atualizacao) {
+        this.descricao = descricao;
+        this.latitude = latitude;
+        this.longitude = longitude;
+        this.atualizacao = atualizacao;
     }
 
     public LocalTrack(String descricao, double latitude, double longitude) {

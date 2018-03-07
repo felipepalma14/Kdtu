@@ -60,6 +60,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name="felipe.palma.com.br.kdetu.services.GPSLocationService"
+            android:process=":GPS_Location_Service" />
+        <service
+            android:name="felipe.palma.com.br.kdetu.services.ServiceVoice"
+            android:process=":Voice_Service" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

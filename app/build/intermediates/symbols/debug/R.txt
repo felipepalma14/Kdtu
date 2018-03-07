@@ -1198,7 +1198,8 @@ int id beginning 0x7f0f0052
 int id blurred_background_image_view 0x7f0f00c0
 int id book_now 0x7f0f0076
 int id bottom 0x7f0f0030
-int id btn_eu 0x7f0f00bd
+int id btnFala 0x7f0f00bd
+int id btn_eu 0x7f0f00bc
 int id button 0x7f0f00d5
 int id buttonPanel 0x7f0f0091
 int id button_0 0x7f0f00cf
@@ -1267,7 +1268,6 @@ int id exitUntilCollapsed 0x7f0f0025
 int id expand_activities_button 0x7f0f008b
 int id expanded_controller_layout 0x7f0f00be
 int id expanded_menu 0x7f0f009e
-int id fab 0x7f0f00bc
 int id fill 0x7f0f003e
 int id fill_horizontal 0x7f0f003f
 int id fill_vertical 0x7f0f0035

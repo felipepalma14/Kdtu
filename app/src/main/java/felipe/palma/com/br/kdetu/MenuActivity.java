@@ -1,18 +1,18 @@
 package felipe.palma.com.br.kdetu;
 
+import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.graphics.drawable.Drawable;
 import android.location.Location;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.speech.RecognizerIntent;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
-import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.NavigationView;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -28,8 +28,6 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -63,9 +61,11 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 
 import felipe.palma.com.br.kdetu.model.LocalTrack;
+import felipe.palma.com.br.kdetu.services.GPSLocationService;
 import felipe.palma.com.br.kdetu.utils.Constant;
 
 public class MenuActivity extends AppCompatActivity
@@ -91,12 +91,15 @@ public class MenuActivity extends AppCompatActivity
     private Location mCurrentLocation;
     private LatLng latLng;
     private List<LocalTrack> locais = new ArrayList<>();
+    private List<Marker> posicoes = new ArrayList<>();
     private LocalTrack localTrack;
 
     private String lastUpdateTime;
-    private Button btnTrack;
+    private Button btnTrack,btnFalar;
     private String descricao;
 
+
+    private final int REQ_CODE_SPEECH_INPUT = 100;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -105,7 +108,10 @@ public class MenuActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+
+        startService(new Intent(MenuActivity.this,GPSLocationService.class));
+
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -113,6 +119,7 @@ public class MenuActivity extends AppCompatActivity
                         .setAction("Action", null).show();
             }
         });
+        */
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
@@ -125,6 +132,16 @@ public class MenuActivity extends AppCompatActivity
         SupportMapFragment fragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.mapa);
 
         btnTrack = (Button) findViewById(R.id.btn_eu);
+
+        btnFalar = (Button) findViewById(R.id.btnFala);
+
+        btnFalar.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                promptSpeechInput();
+            }
+        });
 
         /*
             ID android
@@ -152,8 +169,6 @@ public class MenuActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
-
-
 
     }
 
@@ -204,13 +219,7 @@ public class MenuActivity extends AppCompatActivity
                 Toast.makeText(getApplication(),"Selecionado: " + spnLinhas.getSelectedItem().toString(),Toast.LENGTH_LONG).show();
 
                 String key = android_id;
-                localTrack = new LocalTrack();
-                localTrack.setId(key);
-                localTrack.setDescricao(descricao);
-                localTrack.setLatitude(latLng.latitude);
-                localTrack.setLongitude(latLng.longitude);
-                localTrack.setAtualizacao(lastUpdateTime);
-                //novoLocal(localTrack);
+                localTrack = new LocalTrack(key,descricao,latLng.latitude,latLng.longitude,lastUpdateTime);
 
                 atualizarMeuLocal(localTrack);
                 moverCamera(mGoogleMap, latLng);
@@ -309,7 +318,6 @@ public class MenuActivity extends AppCompatActivity
     @Override
     public void onLocationChanged(Location location) {
         Log.d("APP", "Servico funcionando");
-        //mGoogleMap.clear();
         mCurrentLocation = location;
         lastUpdateTime = getLastTimeUpdate();
 
@@ -324,6 +332,7 @@ public class MenuActivity extends AppCompatActivity
         }
 
         updateUI();
+
 
 
     }
@@ -341,7 +350,7 @@ public class MenuActivity extends AppCompatActivity
              */
             atualizarMeuLocal(localTrack);
             getLocalsFromFirebase();
-            mGoogleMap.clear();
+
         } else {
             Log.d("SERVICO LOCATION", "location is null ...............");
         }
@@ -525,6 +534,7 @@ public class MenuActivity extends AppCompatActivity
 
         @Override
         public void onCancelled(DatabaseError databaseError) {
+            Marker m = mGoogleMap.addMarker(new MarkerOptions());
 
         }
     };
@@ -580,8 +590,6 @@ public class MenuActivity extends AppCompatActivity
 
     @Override
     public View getInfoContents(Marker marker) {
-        //return null;
-        //return prepareInfoView(marker);
 
         View v = getLayoutInflater().inflate(R.layout.infor_bus,null);
         TextView txtAtualizacao = (TextView)v.findViewById(R.id.txt_atualizacao);
@@ -596,46 +604,6 @@ public class MenuActivity extends AppCompatActivity
 
     }
 
-    private View prepareInfoView(Marker marker){
-        //prepare InfoView programmatically
-        LinearLayout infoView = new LinearLayout(MenuActivity.this);
-        LinearLayout.LayoutParams infoViewParams = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        infoView.setOrientation(LinearLayout.HORIZONTAL);
-        infoView.setLayoutParams(infoViewParams);
-
-        ImageView infoImageView = new ImageView(MenuActivity.this);
-        //Drawable drawable = getResources().getDrawable(R.mipmap.ic_launcher);
-        Drawable drawable = getResources().getDrawable(android.R.drawable.ic_dialog_map);
-        infoImageView.setImageDrawable(drawable);
-
-        infoView.addView(infoImageView);
-
-        LinearLayout subInfoView = new LinearLayout(MenuActivity.this);
-        LinearLayout.LayoutParams subInfoViewParams = new LinearLayout.LayoutParams(
-                LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-        subInfoView.setOrientation(LinearLayout.VERTICAL);
-        subInfoView.setLayoutParams(subInfoViewParams);
-
-
-
-        TextView subInfoTitle = new TextView(MenuActivity.this);
-        subInfoTitle.setText(marker.getTitle());
-        TextView subInfoAtualizacao = new TextView(MenuActivity.this);
-        subInfoTitle.setText(marker.getSnippet().toString());
-        TextView subInfoLat = new TextView(MenuActivity.this);
-        subInfoLat.setText("Lat: " + marker.getPosition().latitude);
-        TextView subInfoLnt = new TextView(MenuActivity.this);
-        subInfoLnt.setText("Lnt: " + marker.getPosition().longitude);
-
-        subInfoView.addView(subInfoTitle);
-        subInfoView.addView(subInfoAtualizacao);
-        subInfoView.addView(subInfoLat);
-        subInfoView.addView(subInfoLnt);
-        infoView.addView(subInfoView);
-
-        return infoView;
-    }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -648,8 +616,6 @@ public class MenuActivity extends AppCompatActivity
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        //getMenuInflater().inflate(R.menu.menu, menu);
         return true;
     }
 
@@ -691,5 +657,46 @@ public class MenuActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+
+    /**
+     * Showing google speech input dialog
+     * */
+    private void promptSpeechInput() {
+        Intent intent = new Intent(RecognizerIntent.ACTION_RECOGNIZE_SPEECH);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL,
+                RecognizerIntent.LANGUAGE_MODEL_FREE_FORM);
+        intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.getDefault());
+        intent.putExtra(RecognizerIntent.EXTRA_PROMPT,
+                "TESTE");
+        try {
+            startActivityForResult(intent, REQ_CODE_SPEECH_INPUT);
+        } catch (ActivityNotFoundException a) {
+            Toast.makeText(getApplicationContext(),"Reconhecedor de voz Nao suportado",
+                    Toast.LENGTH_SHORT).show();
+        }
+    }
+
+    /**
+     * Receiving speech input
+     * */
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        switch (requestCode) {
+            case REQ_CODE_SPEECH_INPUT: {
+                if (resultCode == RESULT_OK && null != data) {
+
+                    ArrayList<String> result = data
+                            .getStringArrayListExtra(RecognizerIntent.EXTRA_RESULTS);
+                    ///txtSpeechInput.setText(result.get(0));
+                    Toast.makeText(MenuActivity.this,result.get(0), Toast.LENGTH_LONG).show();
+                }
+                break;
+            }
+
+        }
     }
 }
