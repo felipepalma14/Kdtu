@@ -28,9 +28,6 @@ public class MapaFragment extends Fragment {
         View view = layoutInflater.inflate(R.layout.mapa,viewGroup,false);
         btnEu = (Button) view.findViewById(R.id.btn_eu);
 
-
-
-        //return super.onCreateView(layoutInflater, viewGroup, bundle);
         return view;
     }
 }

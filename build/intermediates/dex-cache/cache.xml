@@ -259,7 +259,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="cf0d844b1cb4ff10ea1cb691b47a1928f2f584e4">
+        sha1="6bac3d7ae285c9089fea307878d2c50fa50fab44">
         <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9a28f06e0e7222cde84d08dc644fb0a724bf9c29\classes.dex" />
     </item>
     <item
@@ -583,7 +583,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="ad61167fc4c14bbdf83a9e42bc38745c43e8e58c">
+        sha1="c638f92e3c8adaa0ac8c4fcbe7469b8e93dff75a">
         <dex dex="C:\androidProject\KdeTu\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_36e5b73a581872be789d81dd6693b5729a131566\classes.dex" />
     </item>
     <item
